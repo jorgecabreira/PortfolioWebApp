@@ -3,7 +3,15 @@
 """
 Created on Sat Jan 11 21:42:04 2025
 
-@author: moreno
+@author: Jorge Cabrera-Moreno
+         Postdoctoral Fellow
+         University of Zurich
+         Institute of Evolutionary Anthropology
+         Evolutionary Cognition Group
+         Zurich, Switzerland
+        
+         Description:
+            Web Portafolio
 """
 from flask import Flask, render_template
 
