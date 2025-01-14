@@ -27,5 +27,10 @@ def home():
 def about():
     return render_template('about.html')
 
+@app.route('/career')
+def career():
+    print("Career route reached")  # Debug print
+    return render_template('career.html')
+
 if __name__ == "__main__":
     app.run(debug=True)  # Run the Flask app in debug mode
